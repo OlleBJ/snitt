@@ -18,7 +18,7 @@ def load_pairs(h):
 
 def filter_pairs(h, known_pairs):
     '''
-    Read pairs (like in load_pairs) from the input file h and count how many of the pairs 
+    Read pairs (like in load_pairs) from the input file h and count how many pairs 
     are shared with what is stored in the dictionary known_pairs. Also count how many
     of the pairs in h are unique to that file. Return the number of shared and unique pairs.
     '''
